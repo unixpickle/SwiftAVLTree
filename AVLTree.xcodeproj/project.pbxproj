@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA212F041947C0480087170E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F031947C0480087170E /* main.swift */; };
+		FA212F061947C0480087170E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F051947C0480087170E /* AppDelegate.swift */; };
+		FA212F081947C0480087170E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA212F071947C0480087170E /* Images.xcassets */; };
+		FA212F0B1947C0480087170E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA212F091947C0480087170E /* MainMenu.xib */; };
+		FA212F171947C0480087170E /* AVLTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F161947C0480087170E /* AVLTreeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA212F111947C0480087170E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA212EF61947C0480087170E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA212EFD1947C0480087170E;
+			remoteInfo = AVLTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA212EFE1947C0480087170E /* AVLTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVLTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA212F021947C0480087170E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA212F031947C0480087170E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA212F051947C0480087170E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA212F071947C0480087170E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA212F0A1947C0480087170E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA212F101947C0480087170E /* AVLTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVLTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA212F151947C0480087170E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA212F161947C0480087170E /* AVLTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTreeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA212EFB1947C0480087170E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F0D1947C0480087170E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA212EF51947C0480087170E = {
+			isa = PBXGroup;
+			children = (
+				FA212F001947C0480087170E /* AVLTree */,
+				FA212F131947C0480087170E /* AVLTreeTests */,
+				FA212EFF1947C0480087170E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA212EFF1947C0480087170E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA212EFE1947C0480087170E /* AVLTree.app */,
+				FA212F101947C0480087170E /* AVLTreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA212F001947C0480087170E /* AVLTree */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F051947C0480087170E /* AppDelegate.swift */,
+				FA212F071947C0480087170E /* Images.xcassets */,
+				FA212F091947C0480087170E /* MainMenu.xib */,
+				FA212F011947C0480087170E /* Supporting Files */,
+			);
+			path = AVLTree;
+			sourceTree = "<group>";
+		};
+		FA212F011947C0480087170E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F021947C0480087170E /* Info.plist */,
+				FA212F031947C0480087170E /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA212F131947C0480087170E /* AVLTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F161947C0480087170E /* AVLTreeTests.swift */,
+				FA212F141947C0480087170E /* Supporting Files */,
+			);
+			path = AVLTreeTests;
+			sourceTree = "<group>";
+		};
+		FA212F141947C0480087170E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA212F151947C0480087170E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA212EFD1947C0480087170E /* AVLTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA212F1A1947C0480087170E /* Build configuration list for PBXNativeTarget "AVLTree" */;
+			buildPhases = (
+				FA212EFA1947C0480087170E /* Sources */,
+				FA212EFB1947C0480087170E /* Frameworks */,
+				FA212EFC1947C0480087170E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVLTree;
+			productName = AVLTree;
+			productReference = FA212EFE1947C0480087170E /* AVLTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA212F0F1947C0480087170E /* AVLTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA212F1D1947C0480087170E /* Build configuration list for PBXNativeTarget "AVLTreeTests" */;
+			buildPhases = (
+				FA212F0C1947C0480087170E /* Sources */,
+				FA212F0D1947C0480087170E /* Frameworks */,
+				FA212F0E1947C0480087170E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA212F121947C0480087170E /* PBXTargetDependency */,
+			);
+			name = AVLTreeTests;
+			productName = AVLTreeTests;
+			productReference = FA212F101947C0480087170E /* AVLTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA212EF61947C0480087170E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alex Nichol";
+				TargetAttributes = {
+					FA212EFD1947C0480087170E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FA212F0F1947C0480087170E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FA212EFD1947C0480087170E;
+					};
+				};
+			};
+			buildConfigurationList = FA212EF91947C0480087170E /* Build configuration list for PBXProject "AVLTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA212EF51947C0480087170E;
+			productRefGroup = FA212EFF1947C0480087170E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA212EFD1947C0480087170E /* AVLTree */,
+				FA212F0F1947C0480087170E /* AVLTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA212EFC1947C0480087170E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F081947C0480087170E /* Images.xcassets in Resources */,
+				FA212F0B1947C0480087170E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F0E1947C0480087170E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA212EFA1947C0480087170E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F061947C0480087170E /* AppDelegate.swift in Sources */,
+				FA212F041947C0480087170E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA212F0C1947C0480087170E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA212F171947C0480087170E /* AVLTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA212F121947C0480087170E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA212EFD1947C0480087170E /* AVLTree */;
+			targetProxy = FA212F111947C0480087170E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA212F091947C0480087170E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA212F0A1947C0480087170E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA212F181947C0480087170E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA212F191947C0480087170E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA212F1B1947C0480087170E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVLTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA212F1C1947C0480087170E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVLTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA212F1E1947C0480087170E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVLTree.app/Contents/MacOS/AVLTree";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVLTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FA212F1F1947C0480087170E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVLTree.app/Contents/MacOS/AVLTree";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVLTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA212EF91947C0480087170E /* Build configuration list for PBXProject "AVLTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA212F181947C0480087170E /* Debug */,
+				FA212F191947C0480087170E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA212F1A1947C0480087170E /* Build configuration list for PBXNativeTarget "AVLTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA212F1B1947C0480087170E /* Debug */,
+				FA212F1C1947C0480087170E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA212F1D1947C0480087170E /* Build configuration list for PBXNativeTarget "AVLTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA212F1E1947C0480087170E /* Debug */,
+				FA212F1F1947C0480087170E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA212EF61947C0480087170E /* Project object */;
+}
