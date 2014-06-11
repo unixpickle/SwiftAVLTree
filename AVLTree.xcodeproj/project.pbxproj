@@ -12,10 +12,18 @@
 		FA212F081947C0480087170E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA212F071947C0480087170E /* Images.xcassets */; };
 		FA212F0B1947C0480087170E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA212F091947C0480087170E /* MainMenu.xib */; };
 		FA212F171947C0480087170E /* AVLTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F161947C0480087170E /* AVLTreeTests.swift */; };
+		FA212F211947C05B0087170E /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA212F201947C05B0087170E /* TreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FA212F111947C0480087170E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA212EF61947C0480087170E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA212EFD1947C0480087170E;
+			remoteInfo = AVLTree;
+		};
+		FA212F221947C05E0087170E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA212EF61947C0480087170E /* Project object */;
 			proxyType = 1;
@@ -34,6 +42,7 @@
 		FA212F101947C0480087170E /* AVLTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVLTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA212F151947C0480087170E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA212F161947C0480087170E /* AVLTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTreeTests.swift; sourceTree = "<group>"; };
+		FA212F201947C05B0087170E /* TreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,7 @@
 				FA212F071947C0480087170E /* Images.xcassets */,
 				FA212F091947C0480087170E /* MainMenu.xib */,
 				FA212F011947C0480087170E /* Supporting Files */,
+				FA212F201947C05B0087170E /* TreeView.swift */,
 			);
 			path = AVLTree;
 			sourceTree = "<group>";
@@ -141,6 +151,7 @@
 			);
 			dependencies = (
 				FA212F121947C0480087170E /* PBXTargetDependency */,
+				FA212F231947C05E0087170E /* PBXTargetDependency */,
 			);
 			name = AVLTreeTests;
 			productName = AVLTreeTests;
@@ -208,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA212F211947C05B0087170E /* TreeView.swift in Sources */,
 				FA212F061947C0480087170E /* AppDelegate.swift in Sources */,
 				FA212F041947C0480087170E /* main.swift in Sources */,
 			);
@@ -228,6 +240,11 @@
 			isa = PBXTargetDependency;
 			target = FA212EFD1947C0480087170E /* AVLTree */;
 			targetProxy = FA212F111947C0480087170E /* PBXContainerItemProxy */;
+		};
+		FA212F231947C05E0087170E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA212EFD1947C0480087170E /* AVLTree */;
+			targetProxy = FA212F221947C05E0087170E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
