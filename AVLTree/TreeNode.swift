@@ -15,7 +15,7 @@ class TreeNode : NSView {
   var value: Int!
   var label: NSTextField!
   
-  class func nodeDepth(aNode : TreeNode?) -> Int {
+  class func nodeDepth(aNode: TreeNode?) -> Int {
     if aNode {
       return aNode!.depth + 1
     } else {
